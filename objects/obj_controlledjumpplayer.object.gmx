@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>/// init vars
+
+depth = -1;
+
 can_jump = false;
 spd_scale = 8;
 

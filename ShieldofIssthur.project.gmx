@@ -33,6 +33,7 @@
     <sprite>sprites\spr_skeleton</sprite>
     <sprite>sprites\spr_tmpplayer</sprite>
     <sprite>sprites\spr_wall_lamp</sprite>
+    <sprite>sprites\spr_door</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -50,9 +51,11 @@
     <object>objects\obj_controlledjumpplayer</object>
     <object>objects\obj_particle_controller</object>
     <object>objects\obj_wall_lamp</object>
+    <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_testroom</room>
+    <room>rooms\rm_testroom2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
